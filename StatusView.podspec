@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    DESC
 
-  s.homepage     = "http://EXAMPLE/StatusView"
+  s.homepage     = "https://github.com/Nguyenvandai1992bkhcmut/StatusView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -42,8 +42,6 @@ Pod::Spec.new do |s|
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
   s.platform     = :ios, "10.0"
-
-  s.source       = { :path => '.' }
 
   s.source_files = "StatusView", "StatusView/**/*.{h,m,swift}"
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
@@ -88,7 +86,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/StatusView.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Nguyenvandai1992bkhcmut/StatusView.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
