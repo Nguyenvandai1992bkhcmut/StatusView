@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name        = "StatusView"
   s.version     = "1.0.0"
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.2' }
   s.license     = { :type => "MIT" }
   s.homepage    = "https://github.com/Nguyenvandai1992bkhcmut/StatusView"
   s.summary     = "A library for saving text and data in the Keychain with Swift."
