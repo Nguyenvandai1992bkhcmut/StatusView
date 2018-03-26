@@ -14,7 +14,8 @@ Pod::Spec.new do |s|
   s.source      = { :git => "https://github.com/Nguyenvandai1992bkhcmut/StatusView.git", :tag => s.version }
   s.screenshots  = "https://raw.githubusercontent.com/evgenyneu/keychain-swift/master/graphics/keychain-swift-demo-3.png"
   s.source_files = "StatusView/*.swift"
-  s.ios.deployment_target = "8.0"
+  s.platform     = :ios, "10.0"
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
   # s.osx.deployment_target = "10.10"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
